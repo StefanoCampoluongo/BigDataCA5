@@ -107,4 +107,5 @@ class CalculatorTest(unittest.TestCase):
         #testing complex numbers
         self.assertEqual(1+4j ,subtraction([3-2j,2-6j]))
                
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
